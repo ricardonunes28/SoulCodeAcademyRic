@@ -33,9 +33,9 @@ function aperte() {
     var verifica = nome_guardar.some(elementos => elementos == "Eliana");
     console.log(verifica);
 
-    var verifica = temperaturas.find(elementos => elementos == 20)
-    if (verifica){
-        document.write("<br> Existem temperaturas maiores ou igual a 20° ")
+    var verifica1 = temperaturas.filter(elementos => elementos == 20)
+    if (verifica1){
+        document.write("<br> Existem temperaturas maiores ou igual a 20°: " verifica1)
     }else{
         document.write("<br> Não existem temperaturas maiores que 20° ")
     }
