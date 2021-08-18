@@ -1,0 +1,56 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(37, 34, 37);
+}
+
+.menu {
+    padding: 1vw;
+    background-color: purple;
+    width: 55%;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    color: #6AFBDA;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 20px;
+
+}
+
+.menu li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.primeiraDiv {
+    width: 30%;
+    border: outset 1px;
+    background-color: salmon;
+    margin-top: 2%;
+    margin-left: 20%;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+}
+
+img {
+    width: 30%;
+}
+
+button {
+    display: flex;
+}
+#tamanho{
+    height: 200px;
+    width: 50%;
+    border: outset 1px;
+    overflow: auto;
+}   

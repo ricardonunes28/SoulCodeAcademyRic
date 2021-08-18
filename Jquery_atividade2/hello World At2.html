@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Hello Jquery</title>
+<body>
+    <!-- Crie uma pagina com os seguintes requisitos:
+    1- Deve existir um menu horizontal que ao redimensionar a janela do navegador o menu irá sumir.
+    2- Crie um elemento html(paragrafo, imagem, div...) posicione-o e retorne em um alert a posição deste elemento com a função position e com o offset;
+    3- Você deve criar uma box com um texto que contenha scroll e um ao clicar no botão irá retornar a posição em que o scroll está. Você escolhe se vai usar o scrollTop ou scrollLeft. -->
+
+    <nav id="menu-vertical" class="menu">
+        <ul class="nav">
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Quem Somos  
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Trabalhe Conosco
+                </a>
+            </li>
+            <li>
+                <a href="3">
+                    Cadastro
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="primeiraDiv">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi iure incidunt temporibus obcaecati
+            dolore ipsum accusantium totam illum sunt optio architecto doloribus nisi distinctio, perspiciatis ex alias
+            ullam quisquam. Ab libero explicabo excepturi, ratione itaque nisi nesciunt quis, nihil voluptatem quod
+            aliquam ipsum officiis hic nemo deserunt voluptates quam pariatur laborum possimus vel! Illum explicabo
+            nostrum, ex recusandae unde qui quisquam sunt alias odio iure quod laudantium, at eos quo delectus nihil
+            porro et quia, officia voluptatem similique a? Commodi vel illum, corrupti, est a nisi quibusdam ad
+            consequuntur, possimus architecto consectetur porro temporibus. Deleniti, accusamus sed quod exercitationem
+            labore dignissimos mollitia optio earum aperiam expedita minus velit repudiandae ducimus iusto ipsum
+            distinctio impedit sunt autem est soluta. Mollitia, totam explicabo quibusdam soluta sunt deserunt quis quae
+            itaque quos quidem, hic labore, quasi neque aut similique unde ex pariatur sapiente aliquam placeat expedita
+            distinctio impedit sunt autem est soluta. Mollitia, totam explicabo quibusdam soluta sunt deserunt quis quae
+            itaque quos quidem, hic labore, quasi neque aut similique unde ex pariatur sapiente aliquam placeat expedita
+        </p>
+    </div>
+    <img src="./imagens_at2/carro.jpg" title="carro">
+    <button id="caixaTexto">Posição caixa texto</button>
+    <br>
+    <button id="img1">Posição imagem</button>
+
+    <div id="tamanho">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, excepturi corrupti iusto necessitatibus sequi impedit minima atque beatae quaerat perspiciatis. Ad perspiciatis maiores itaque fugit consectetur reprehenderit inventore sed architecto! Eveniet corporis consequatur iure modi saepe exercitationem atque voluptas eligendi, labore quidem! Architecto, praesentium? Doloribus pariatur, reprehenderit culpa iusto quisquam natus nisi voluptas. Recusandae expedita atque assumenda quo, quisquam, impedit repudiandae iste sint minima, ad mollitia omnis sed quas earum dolor magnam sapiente ab. Consectetur repudiandae cumque quia magni expedita? Cupiditate possimus vel explicabo rem exercitationem eos laudantium mollitia, aspernatur odio, veniam asperiores sint, maiores numquam architecto tempora doloribus repellat tempore? Eum aliquid quasi earum, harum quas iusto inventore sit asperiores velit? Officiis, odit nam laborum, quam perferendis sapiente sint ullam impedit delectus quisquam illo, ad blanditiis repellendus sed provident. Eaque harum cumque facere adipisci rerum laboriosam minima debitis quasi nihil, labore laudantium atque nemo at quidem delectus consectetur earum doloremque modi nulla placeat incidunt eveniet. Provident, sit ullam! Cum asperiores amet nisi dolore possimus recusandae magni minima dolorem fugit facilis libero ut officia vero perspiciatis praesentium, voluptatibus, repellat atque repellendus eius molestiae. Nobis velit ad illum veritatis. Quo sint, deleniti ut blanditiis porro aut maxime, ex amet rem, cum aliquam nesciunt eligendi earum odio sapiente possimus quaerat. Provident necessitatibus officiis quasi sequi aut aspernatur qui, obcaecati hic fuga dolorem quidem quo modi voluptatibus eveniet illo doloremque eaque id nobis eius animi sint. Voluptas quos molestiae eligendi molestias eveniet. Corrupti deserunt eaque accusantium, omnis exercitationem saepe soluta? Sint, consequatur sapiente?
+       Cupiditate possimus vel explicabo rem exercitationem eos laudantium mollitia, aspernatur odio, veniam asperiores sint, maiores numquam architecto tempora doloribus repellat tempore? Eum aliquid quasi earum, harum quas iusto inventore sit asperiores velit? Officiis, odit nam laborum, quam perferendis sapiente sint ullam impedit delectus quisquam illo, ad blanditiis repellendus sed provident. Eaque harum cumque facere adipisci rerum laboriosam minima debitis quasi nihil, labore laudantium atque nemo at quidem delectus consectetur earum doloremque modi nulla placeat incidunt eveniet. Provident, sit ullam! Cum asperiores amet nisi dolore possimus recusandae magni minima dolorem fugit facilis libero ut officia vero perspiciatis praesentium, voluptatibus, repellat atque repellendus eius molestiae. Nobis velit ad illum veritatis. Quo sint, deleniti ut blanditiis porro aut maxime, ex amet rem, cum aliquam nesciunt eligendi earum odio sapiente possimus quaerat. Provident necessitatibus officiis quasi sequi aut aspernatur qui, obcaecati hic fuga dolorem quidem quo modi voluptatibus eveniet illo doloremque eaque id nobis eius animi sint. Voluptas quos molestiae eligendi molestias eveniet. Corrupti deserunt eaque accusantium, omnis exercitationem saepe soluta? Sint, consequatur sapiente?
+    </div>
+    <button id="posiçãoScrol" class="ativarcontagem">Posição scroll</button>
+
+    <!-- Ver exercicios no script.js -->
+
+
+    <script type="text/javascript" src="./JS/jquery-3.6.0.min.js"></script>
+    <script src="./JS/script.js"type="text/javascript"></script>
+
+</body>
+
+</html>
