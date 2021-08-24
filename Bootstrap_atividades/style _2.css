@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: 20px;
+   
+  }
+
+  div{
+    height: 7vh;
+    background-color: cornflowerblue;
+  }
+
+  .item1 {
+    grid-column: col-start / span 12;
+    grid-row:1;
+  
+    
+  }
+  .item2 {
+    grid-column: col-start  / span 6 ;
+    grid-row:2;
+    
+    background-color: cornflowerblue;
+  }
+.item3 {
+    grid-column: col-start 7 / span 6 ;
+    grid-row: 2;
+    background-color: cornflowerblue;
+  } 
+  .item4 {
+    grid-column: col-start  / 5 ;
+    grid-row: 3;
+    background-color: cornflowerblue;
+  } 
+  .item5 {
+    grid-column: col-start 5 / span 4 ;
+    grid-row: 3;
+    background-color: cornflowerblue;
+  } 
+  .item7 {
+    grid-column: col-start 9 / span 4 ;
+    grid-row: 3;
+    background-color: cornflowerblue;
+  } 
+  .item8 {
+    grid-column: col-start  / span 3 ;
+    grid-row: 4;
+    background-color: cornflowerblue;
+  } 
+  .item9 {
+    grid-column: col-start 4 / span 3 ;
+    grid-row: 4;
+    background-color: cornflowerblue;
+  } 
+  .item10 {
+    grid-column: col-start 7 / span 3 ;
+    grid-row: 4;
+    background-color: cornflowerblue;
+  } 
+  .item11 {
+    grid-column: col-start 10 / span 3 ;
+    grid-row: 4;
+    background-color: cornflowerblue;
+  }
+  .item12 {
+    grid-column: col-start  / span 4 ;
+    grid-row: 5;
+    background-color: cornflowerblue;
+  }
+  .item13 {
+    grid-column: col-start 5 / span 8 ;
+    grid-row: 5;
+    background-color: cornflowerblue;
+  }
+  .item14 {
+    grid-column: col-start  / span 8 ;
+    grid-row: 6;
+    background-color: cornflowerblue;
+  }
+  .item15 {
+    grid-column: col-start 9 / span 4 ;
+    grid-row: 6;
+    background-color: cornflowerblue;
+  }
+  .item16 {
+    grid-column: col-start  / span 2;
+    grid-row: 7;
+    background-color: cornflowerblue;
+  }
+  .item17 {
+    grid-column: col-start 3 / span 2 ;
+    grid-row: 7;
+    background-color: cornflowerblue;
+  }
+  .item18 {
+    grid-column: col-start 5 / span 2 ;
+    grid-row: 7;
+    background-color: cornflowerblue;
+  }
+  .item19 {
+    grid-column: col-start 7 / span 2 ;
+    grid-row: 7;
+    background-color: cornflowerblue;
+  }
+  .item20 {
+    grid-column: col-start 9 / span 2 ;
+    grid-row: 7;
+    background-color: cornflowerblue;
+  }
+  .item21 {
+    grid-column: col-start 11 / span 2 ;
+    grid-row: 7;
+    background-color: cornflowerblue;
+  }
+  .item22 {
+    grid-column: col-start  / span 1;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item23 {
+    grid-column: col-start 2 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item24 {
+    grid-column: col-start 3 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item25 {
+    grid-column: col-start 4 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item26 {
+    grid-column: col-start 5 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item27 {
+    grid-column: col-start 6 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item28 {
+    grid-column: col-start 7 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item29 {
+    grid-column: col-start 8 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item30 {
+    grid-column: col-start 9 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item31 {
+    grid-column: col-start 10 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item32 {
+    grid-column: col-start 11 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+  .item33 {
+    grid-column: col-start 12 / span 1 ;
+    grid-row: 8;
+    background-color: cornflowerblue;
+  }
+
+
+
+
+
+
