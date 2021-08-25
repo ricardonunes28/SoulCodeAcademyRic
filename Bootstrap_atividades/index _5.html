@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap_arquivo/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./imagnes_index/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style _5.css">
+    <title>Atividade 5 - Professora Sayure - Desenvolvendo com bootstrap</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <header class="row align-items-end">
+            <nav>
+                <a class="logo" href="#"><img src="./imagens/bootstrao_img.jpg" alt="" id="logo_img"
+                        class="img-fluid"></a>
+                <ul class="lista_nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Quem Somos</a></li>
+                    <li><a href="">Usuarios do Bootstrap</a></li>
+                    <li><a href="">Galeria</a></li>
+                </ul>
+            </nav>
+            </nav>
+        </header>
+        <section class="row">
+            <main class="col-md-9">
+                <h2 class="text-lg-center text-warning">Formulario</h2>
+                <div id="fomulario">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4" class="sr-only">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4" class="sr-only">Senha</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress" class="sr-only">Endereço</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2" class="sr-only">Endereço 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartamento, hotel, casa, etc.">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity" class="sr-only">Cidade</label>
+                                <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputEstado" class="sr-only">Estado</label>
+                                <select id="inputEstado" class="form-control">
+                                    <option>Estados</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputCEP" class="sr-only">CEP</label>
+                                <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Clique em mim
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                    </form>
+                </div>
+                <div id="enviarArquivo">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlFile1">Exemplo de input de arquivo</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                    </form>
+                </div>
+            </main>
+            <aside class="col-md-3">
+                <h2 class="text-warning text-lg-center">ATENÇÃO</h2>
+                <div class="row">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="560" height="315"
+                            src="https://www.youtube.com/embed/mVgrenJX5dI" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="row">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active bg-danger" data-toggle="list"
+                                href="#list-Cuidado" role="tab" aria-controls="home">Cuidado</a>
+                            <a class="list-group-item list-group-item-action bg-warning" data-toggle="list"
+                                href="#list-Atencao" role="tab" aria-controls="profile">Atenção</a>
+                            <a class="list-group-item list-group-item-action bg-success" data-toggle="list"
+                                href="#list-Ok" role="tab" aria-controls="messages">OK</a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tab-content text-center" id="nav-tabContent">
+                            <div class="tab-pane fade show active text-uppercase text-danger" id="list-Cuidado"
+                                role="tabpanel" aria-labelledby="list-home-list">Perigo vc ja está nesta pagina por
+                                muito tempo.
+                            </div>
+                            <div class="tab-pane fade text-warning" id="list-Atencao" role="tabpanel"
+                                aria-labelledby="list-profile-list">Aviso - você precisa descançar...</div>
+                            <div class="tab-pane fade text-success" id="list-Ok" role="tabpanel"
+                                aria-labelledby="list-messages-list">Continue estudando...</div>
+
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+        <script>
+            $("#inputEmail4").blur(function () {
+                var email = $('#inputEmail4').val();
+                var email_regex = new RegExp(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
+                var checagem = email_regex.test(email)
+                if (!checagem) {
+                    $('#inputEmail4').css('borderColor', 'red');
+                } else {
+                    $('#inputEmail4').css('borderColor', 'green');
+                }
+            });
+            $("#inputPassword4").blur(function () {
+                var Senha = $('#inputPassword4').val();
+                var Senha_regex = new RegExp(/^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[a-zA-Z!#$%&? "])[a-zA-Z0-9!#$%&?]{8,20}$/);
+                var checagem = Senha_regex.test(Senha)
+                if (!checagem) {
+                    $('#inputPassword4').css('borderColor', 'red');
+                    alert("Mínimo de 8 caracteres ,Máximo de 20 caracteres , Pelo menos um caractere maiúsculo, Pelo menos um caractere minúsculo,Pelo menos um caractere especial")
+                } else {
+                    $('#inputPassword4').css('borderColor', 'green');
+
+                }
+            });
+
+
+            // new regExp, fiz a pesquisa para a validação de senha e encontrei essa opção, achei bem pratico e de facil entendimento!
+
+        </script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="../Bootstrap_arquivo/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../Bootstrap_arquivo/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./JS/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="./JS/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+</body>
+
+</html>

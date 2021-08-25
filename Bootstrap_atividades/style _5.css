@@ -1,0 +1,84 @@
+
+a {
+  text-decoration: none;
+  color: white;
+  /*  font-size: 2.5vh;
+  font-weight: bold;
+  */
+  transition: 0.3s;
+}
+
+
+a:hover {
+  /* rgb(213, 237, 253); */
+  /* background-color: #5aaee2; */
+  opacity: 0.7;
+  /* border-radius: 1vh; */
+  /* padding: 2.5vh; */
+}
+
+#logo_img {
+  /* width: 10vw;
+  height: 18vh;
+   */
+  width: 100%;
+  height: 20vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  height: 20vh;
+}
+
+.lista_nav {
+  list-style: none;
+  display: flex;
+}
+
+.lista_nav li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+  /* margin-top: 7.5vh; */
+}
+/* Aqui Finaliza o Header e Nav */
+.list-group-item.active {
+  background-color: violet;
+}
+.tab-content>.active{
+  border: solid;
+}
+
+body{
+  background: url(./imagens/section.png)no-repeat;
+}
+
+.container{
+  height: 130vh;
+}
+
+header{
+  height: 30vh;
+ 
+}
+
+ @media (max-width: 768px){
+  body{
+    background: url(./imagens/bootstrao_img.jpg);
+  }
+
+} 
+/* /* Caso seja menor que 768px muda o fundo do site */
+
+#fomulario , #enviarArquivo{
+  border: solid plum;
+  background-color: plum;
+}
+
+
+
+
+
+
