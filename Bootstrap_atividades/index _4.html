@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Bootstrap_arquivo/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./imagnes_index/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style _4.css">
+    <title>Atividade 4 - Professora Sayure - Desenvolvendo com bootstrap</title>
+</head>
+
+<body>
+    <!-- Crie uma pagina sobre "bootstrap" seguindo os seguintes critérios:
+1. A visualização da página deve ser mantida para Telas com tamanho maior ou igual a 768px; 
+2. você deve incluir uma tabela com números, estimativas... (fictício ou não), apenas para praticarmos as classes de tabelas ;) - ok
+3. Deve conter um formato de lista que exiba em uma nova guia(tab) parágrafos tratando sobre o assunto.ok
+4. No texto apresentado na guia do item 3, vc deve deixar o texto justificado.ok
+5. No ultimo paragrafo, vc deve colocar todas as primeiras letras de cada palavra em maiúsculo.ok
+6. Crie também uma lista instruindo ao usuário o que cada aviso do texto corresponde. Exemplo:
+   - vermelho - atenção vc ja está nesta pagina por muito tempo.
+   - amarelo - você precisa descançar... -->
+
+
+    <section class="container">
+        <header class="row align-items-end">
+            <nav>
+                <a class="logo" href="#"><img src="./imagens/bootstrao_img.jpg" alt="" id="logo_img"
+                        class="img-fluid"></a>
+                <ul class="lista_nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Quem Somos</a></li>
+                    <li><a href="">Usuarios do Bootstrap</a></li>
+                    <li><a href="">Galeria</a></li>
+                </ul>
+            </nav>
+            </nav>
+        </header>
+        <section class="row">
+            <main class="col-md-9">
+                <h2 class="text-lg-center text-warning">Usuarios do Bootstrap</h2>
+                <table class="table table-hover table-dark">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Nº</th>
+                            <th>Nome</th>
+                            <th>Sobrenome</th>
+                            <th>Usuário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-danger">
+                            <th>1</th>
+                            <td>Joao</td>
+                            <td>Mateus</td>
+                            <td>johny</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th>2</th>
+                            <td>Jose</td>
+                            <td>Silva</td>
+                            <td>jsilva</td>
+                        </tr>
+                        <tr class="table-success">
+                            <th>3</th>
+                            <td>Alan</td>
+                            <td>Maia</td>
+                            <td>alan_maia</td>
+                        </tr>
+                        <tr class="table-dark">
+                            <th>3</th>
+                            <td>Alan</td>
+                            <td>Maia</td>
+                            <td>alan_maia</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th>3</th>
+                            <td>Alan</td>
+                            <td>Maia</td>
+                            <td>alan_maia</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div>
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" data-toggle="list"
+                            href="#list-facildeUsar" role="tab" aria-controls="home">Facil de Usar</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#list-praqueServe"
+                            role="tab" aria-controls="profile">Para que Serve?</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#list-porqueUsar"
+                            role="tab" aria-controls="messages">Por que usar Boostrap?</a>
+                    </div>
+                </div>
+                <div class="tab-content text-center" id="nav-tabContent">
+                    <div class="tab-pane fade show active text-uppercase text-warning" id="list-facildeUsar"
+                        role="tabpanel" aria-labelledby="list-home-list">Como diriam os antigos: é mel na chupeta! Mexer
+                        com o Bootstrap
+                        não requer que você seja um gênio em computação, tudo nele é simples e a curva de aprendizado
+                        dele é bem suave. Além disso, é bastante adaptável. Você pode usá-lo junto com o CSS, LESS ou
+                        também com Sass.
+                    </div>
+                    <div class="tab-pane fade active text-uppercase text-warning" id="list-praqueServe" role="tabpanel"
+                        aria-labelledby="list-profile-list">Basicamente, o Bootstrap é um framework CSS para ser
+                        utilizado no front-end de aplicações web. Ele utiliza JavaScript e CSS para estilizar as páginas
+                        e adicionar funcionalidades que vão além de apenas proporcionar um visual bonito ao site.</div>
+                    <div class="tab-pane fade  active text-uppercase text-warning" id="list-porqueUsar" role="tabpanel"
+                        aria-labelledby="list-messages-list">O Bootstrap oferece muitos trechos de CSS e JavaScript
+                        reutilizáveis, evitando que se tenha que programar do zero – consumindo muito tempo – e que
+                        podem servir para muitas situações comuns na maior parte dos sites, requerendo apenas a
+                        utilização do HTML para integrá-los.
+                    </div>
+
+                </div>
+            </main>
+            <aside class="col-md-3">
+                <h2 class="text-warning text-lg-center">ATENÇÃO</h2>
+                <div class="row">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="560" height="315"
+                            src="https://www.youtube.com/embed/mVgrenJX5dI" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="row">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active bg-danger" data-toggle="list"
+                                href="#list-Cuidado" role="tab" aria-controls="home">Cuidado</a>
+                            <a class="list-group-item list-group-item-action bg-warning" data-toggle="list"
+                                href="#list-Atencao" role="tab" aria-controls="profile">Atenção</a>
+                            <a class="list-group-item list-group-item-action bg-success" data-toggle="list"
+                                href="#list-Ok" role="tab" aria-controls="messages">OK</a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="tab-content text-center" id="nav-tabContent">
+                            <div class="tab-pane fade show active text-uppercase text-danger" id="list-Cuidado"
+                                role="tabpanel" aria-labelledby="list-home-list">Perigo vc ja está nesta pagina por
+                                muito tempo.
+                            </div>
+                            <div class="tab-pane fade text-warning" id="list-Atencao" role="tabpanel"
+                                aria-labelledby="list-profile-list">Aviso - você precisa descançar...</div>
+                            <div class="tab-pane fade text-success" id="list-Ok" role="tabpanel"
+                                aria-labelledby="list-messages-list">Continue estudando...</div>
+
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="../Bootstrap_arquivo/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../Bootstrap_arquivo/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./JS/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="./JS/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+</body>
+
+</html>
