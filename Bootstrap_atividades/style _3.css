@@ -5,7 +5,7 @@
     border: solid;
     height: 20vh;
   }
-  .content {
+  .container {
     grid-area: content;
     background-color: rgba(128, 9, 0, 0);
     border: solid;

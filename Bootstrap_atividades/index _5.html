@@ -157,6 +157,15 @@
                 </div>
             </aside>
         </section>
+        <section class="col-md-6 mb-3">
+            <section class="input-group">
+                <section class="input-group-prepend">
+                    <span class="input-group-text">Senha</span>
+                </section>
+                <input type="password" class="form-control" id="form_senha"
+                    placeholder="Senha com 4 digitos com 1 caractere e 1 número" minlength="4" maxlength="20">
+            </section>
+        </section>
         <script>
             $("#inputEmail4").blur(function () {
                 var email = $('#inputEmail4').val();
@@ -170,7 +179,7 @@
             });
             $("#inputPassword4").blur(function () {
                 var Senha = $('#inputPassword4').val();
-                var Senha_regex = new RegExp(/^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[a-zA-Z!#$%&? "])[a-zA-Z0-9!#$%&?]{8,20}$/);
+                var Senha_regex = new RegExp(/^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[a-zA-Z!#$%&@? "])[a-zA-Z0-9!#$%&@?]{4,20}$/);
                 var checagem = Senha_regex.test(Senha)
                 if (!checagem) {
                     $('#inputPassword4').css('borderColor', 'red');
@@ -179,19 +188,34 @@
                     $('#inputPassword4').css('borderColor', 'green');
 
                 }
+
+            });
+            $(".input-group-text").blur(function () {
+                var Senha = $('.input-group-text').val();
+                var Senha_regex = new RegExp(/^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[a-zA-Z!#$%&@? "])[a-zA-Z0-9!#$%&@?]{8,20}$/);
+                var checagem = Senha_regex.test(Senha)
+                if (!checagem) {
+                    $('.input-group-text').css('borderColor', 'red');
+                    alert("Mínimo de 8 caracteres ,Máximo de 20 caracteres , Pelo menos um caractere maiúsculo, Pelo menos um caractere minúsculo,Pelo menos um caractere especial")
+                } else {
+                    $('.input-group-text').css('borderColor', 'green');
+
+                }
+
             });
 
 
             // new regExp, fiz a pesquisa para a validação de senha e encontrei essa opção, achei bem pratico e de facil entendimento!
 
         </script>
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"></script>
-        <script src="../Bootstrap_arquivo/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../Bootstrap_arquivo/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+        <script src="./bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="./JS/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="./JS/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 
